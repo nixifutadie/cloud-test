@@ -8,7 +8,7 @@ spring:
   # 配置中心
   cloud:
     config:
-      profile: dev
+      profile: hello-service
       discovery:
         enabled: true
         service-id: config
